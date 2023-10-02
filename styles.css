@@ -1,0 +1,174 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #209c8c; /* Color menta de fondo */
+}
+
+/* Estilos del header */
+.header {
+    background-color: #0a5050; /* Color menta oscuro para el header */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 150px; /* Ajusta el tamaño del logo según tus necesidades */
+    border-radius: 60%; /* Hacer el logo circular */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Estilos específicos */
+.cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para los doctores */
+.doctor {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.doctor img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para la lista de servicios */
+.servicios-lista {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.servicio-item {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.2s;
+}
+
+.servicio-item:hover {
+    transform: scale(1.05);
+}
+
+.servicio-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.servicio-item h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.servicio-item p {
+    font-size: 14px;
+    color: #444;
+}
+
+
+/* Estilos para el footer */
+footer {
+    background-color: #0a5050; /* Color menta oscuro para el footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para la sección de Contacto */
+#contacto {
+    background-color: #f5f5f5;
+    padding: 40px;
+    text-align: center;
+}
+
+.contacto-info {
+    margin-bottom: 20px;
+}
+
+.contacto-info strong {
+    color: #00aa00; /* Color menta para el texto en negrita */
+}
+
+.direccion, .telefono {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.telefono-link {
+    color: #00aa00; /* Color menta para el enlace de teléfono */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cita-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #0a5050; /* Color menta para el botón de WhatsApp */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #007700; /* Color menta oscuro al pasar el cursor */
+}
